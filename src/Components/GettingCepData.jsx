@@ -9,6 +9,7 @@ const Container = styled.div`
   -webkit-backdrop-filter: blur(10px);
   margin-left: 200px;
   margin-right: 200px;
+  border-radius: 10px;
 `;
 
 const Form = styled.form`
@@ -137,7 +138,7 @@ function GettingCepData() {
         </Label>
 
         <ButtonForm type="submit" onSubmit={() => {
-          
+
         }}>Enviar</ButtonForm>
       </Form>
     </Container>
